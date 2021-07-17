@@ -23,6 +23,29 @@ body {
   display: flex;
 }
 
+@media screen and (max-width: 1000px) {
+  .website {
+    margin-top: 80px;
+  }
+
+  .topo {
+    position: fixed;
+    height: 64px;
+    top: 0%;
+    left: 50%;
+    border-bottom: 1px #eaeaea;
+  }
+
+  .topo img {
+    content: url("../img/diario-do-bootcamper-mobile.png");
+  }
+
+  .menu {
+    display: block;
+    width: 100%;
+  }
+}
+
 .menu .item {
   background-color: #ffffff;
   padding: 20px;
