@@ -1,0 +1,33 @@
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #AA4653;
+    margin: 30px;
+}
+.images{
+    border-style: solid;
+}
+p{
+    color: black;
+    margin: 30px;
+}
+#top{
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+}
+#juntinhos{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+#config{
+    box-shadow: red;
+}
