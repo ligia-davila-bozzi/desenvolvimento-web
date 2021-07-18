@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/desktop.css">
+  <link rel="stylesheet" href="./css/mobile.css">
+  <link rel="icon" sizes="192x192" href="./img/favicon.png">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <title>Instagram</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="header__navbar">
+      <div class="header__navbar__logo">
+        <ion-icon class="navbar__logo__icon" name="logo-instagram"></ion-icon>
+        <img src="./img/logo.png" alt="img-logo" class="navbar__logo__image">
+      </div>
+
+      <div tabindex="0" class="header__navbar__searchbar">
+        <form action="/search" method="post" class="navbar__searchbar__form">
+          <ion-icon class="searchbar__form__icon" name="search-outline"></ion-icon>
+          <input type="text" class="searchbar__form__search-text" id="searchText" placeholder="Pesquisar">
+        </form>
+      </div>
+
+      <div class="header__navbar__icons">
+        <ion-icon class="navbar__icons__icon" name="paper-plane-outline"></ion-icon>
+        <ion-icon class="navbar__icons__icon" name="compass-outline"></ion-icon>
+        <ion-icon class="navbar__icons__icon" name="heart-outline"></ion-icon>
+        <ion-icon class="navbar__icons__icon" name="person-outline"></ion-icon>
+      </div>
+    </nav>
+  </header>
+  <div class="website">
+    <div class="website__stories">
+      <ul class="website__stories__body">
+        <li class="stories__body__story">
+          <img class="body__story__image" src="./img/users/1.jpg" alt="STORIE">
+        </li>
+        <li class="stories__body__story">
+          <img class="body__story__image" src="./img/users/2.jpg" alt="STORIE">
+        </li>
+        <li class="stories__body__story">
+          <img class="body__story__image" src="./img/users/3.jpg" alt="STORIE">
+        </li>
+        <li class="stories__body__story">
+          <img class="body__story__image" src="./img/users/4.jpg" alt="STORIE">
+        </li>
+        <li class="stories__body__story">
+          <img class="body__story__image" src="./img/users/5.jpg" alt="STORIE">
+        </li>
+        <li class="stories__body__story">
+          <img class="body__story__image" src="./img/users/6.jpg" alt="STORIE">
+        </li>
+        <li class="stories__body__story">
+          <img class="body__story__image" src="./img/users/7.jpg" alt="STORIE">
+        </li>
+        <li class="stories__body__story">
+          <img class="body__story__image" src="./img/users/8.jpg" alt="STORIE">
+        </li>
+        <li class="stories__body__story">
+          <img class="body__story__image" src="./img/users/9.jpg" alt="STORIE">
+        </li>
+        <li class="stories__body__story">
+          <img class="body__story__image" src="./img/users/10.jpg" alt="STORIE">
+        </li>
+      </ul>
+      <ion-icon class="website__stories__forward-button" name="chevron-forward-circle-outline"></ion-icon>
+    </div>
+
+    <div class="website__sidebar">
+      <div class="website__sidebar__user">
+        <img src="./img/users/amaro.alexandre_.jpg" alt="Imagem de perfil de Amaro 'KuryKat' Alexandre"
+          class="sidebar__user__image">
+        <div class="sidebar__user__info">
+          <span class="user__info__username">amaro.alexandre_</span>
+          <span class="user__info__name">Amaro "KuryKat" Alexandre</span>
+        </div>
+        <span class="sidebar__user__change-user">Mudar</span>
+      </div>
+
+      <div class="website__sidebar__suggestions">
+        <div class="sidebar__suggestions__header">
+          <span class="suggestions__header__title">
+            Sugestões para você
+          </span>
+          <span class="suggestions__header__subtitle">
+            Ver Tudo
+          </span>
+        </div>
+        <div class="sidebar__suggestions__suggestion">
+          <div class="suggestions__suggestion__user">
+            <img src="./img/users/bm_ensina.jpg" alt="Foto de perfil de Bárbara Maia" class="suggestion__user__image">
+            <div class="suggestion__user__info">
+              <span class="user__info__username">bm_ensina</span>
+              <span class="user__info__reason">Novo no Instagram</span>
+            </div>
+          </div>
+          <span class="suggestions__suggestion__follow-button">Seguir</span>
+        </div>
+        <div class="sidebar__suggestions__suggestion">
+          <div class="suggestions__suggestion__user">
+            <img src="./img/users/default.jpg" alt="Foto de perfil Default" class="suggestion__user__image">
+            <div class="suggestion__user__info">
+              <span class="user__info__username">joao_gamer</span>
+              <span class="user__info__reason">Novo no Instagram</span>
+            </div>
+          </div>
+          <span class="suggestions__suggestion__follow-button">Seguir</span>
+        </div>
+        <div class="sidebar__suggestions__suggestion">
+          <div class="suggestions__suggestion__user">
+            <img src="./img/users/pichau.jpg" alt="Foto de perfil de Pichau" class="suggestion__user__image">
+            <div class="suggestion__user__info">
+              <span class="user__info__username">pichauoficial</span>
+              <span class="user__info__reason">Seguido(a) por maisa</span>
+            </div>
+          </div>
+          <span class="suggestions__suggestion__follow-button">Seguir</span>
+        </div>
+        <div class="sidebar__suggestions__suggestion">
+          <div class="suggestions__suggestion__user">
+            <img src="./img/users/razer.jpg" alt="Foto de perfil de Razer" class="suggestion__user__image">
+            <div class="suggestion__user__info">
+              <span class="user__info__username">razer</span>
+              <span class="user__info__reason">Seguido(a) por omolusqueti</span>
+            </div>
+          </div>
+          <span class="suggestions__suggestion__follow-button">Seguir</span>
+        </div>
+        <div class="sidebar__suggestions__suggestion">
+          <div class="suggestions__suggestion__user">
+            <img src="./img/users/will_smith.jpg" alt="Foto de perfil de Will Smith" class="suggestion__user__image">
+            <div class="suggestion__user__info">
+              <span class="user__info__username">willsmith</span>
+              <span class="user__info__reason">Seguido(a) por manualdomundo</span>
+            </div>
+          </div>
+          <span class="suggestions__suggestion__follow-button">Seguir</span>
+        </div>
+      </div>
+
+      <div class="website__sidebar__links">
+        <a href="https://google.com" class="sidebar__links__link">
+          Sobre
+        </a>
+        <a href="https://google.com" class="sidebar__links__link">
+          Ajuda
+        </a>
+
+        <a href="https://google.com" class="sidebar__links__link">
+          Imprensa
+        </a>
+
+        <a href="https://google.com" class="sidebar__links__link">
+          API
+        </a>
+
+        <a href="https://google.com" class="sidebar__links__link">
+          Carreiras
+        </a>
+
+        <a href="https://google.com" class="sidebar__links__link">
+          Privacidade
+        </a>
+
+        <a href="https://google.com" class="sidebar__links__link">
+          Termos
+        </a>
+
+        <a href="https://google.com" class="sidebar__links__link">
+          Localizações
+        </a>
+
+        <a href="https://google.com" class="sidebar__links__link">
+          Principais contas
+        </a>
+
+        <a href="https://google.com" class="sidebar__links__link">
+          Hashtags
+        </a>
+
+        <a href="https://google.com" class="sidebar__links__link">
+          Idioma
+        </a>
+      </div>
+
+      <footer class="website__sidebar__footer">
+        © 2021 Instagram do Facebook
+      </footer>
+    </div>
+
+    <div class="website__posts">
+      <div class="website__posts__post">
+        <div class="posts__post__body">
+          <div class="post__body__header">
+            <div class="body__header__author">
+              <img class="header__author__image" src="./img/users/manual_do_mundo.jpg"
+                alt="Foto de perfil de Manual do Mundo">
+              <span class="header__author__username">manualdomundo</span>
+            </div>
+            <ion-icon class="body__header__options-icon" name="ellipsis-horizontal-outline"></ion-icon>
+          </div>
+          <div class="post__body__main">
+            <img class="body__main__image"
+              src="./img/posts/users/manual_do_mundo/217826839_251408879794945_1685909093297009400_n.jpg" alt="">
+          </div>
+          <div class="post__body__actions">
+            <div class="body__actions__icons-left">
+              <ion-icon tabindex="0" class="actions__icons__icon like" name="heart-outline"></ion-icon>
+              <ion-icon tabindex="0" class="actions__icons__icon like" name="heart"></ion-icon>
+              <ion-icon class="actions__icons__icon" name="chatbubble-outline"></ion-icon>
+              <ion-icon class="actions__icons__icon" name="paper-plane-outline"></ion-icon>
+            </div>
+            <div class="body__actions__icons-right">
+              <ion-icon class="actions__icons__icon" name="bookmark-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="post__body__stats">
+            <img class="stats__friend-liked__image" src="./img/users/maisa.jpg" alt="Maisa">
+            <span class="body__stats__how-many-text">Curtido por</span>
+            <div class="body__stats__friend-liked">
+              <!-- <img class="stats__friend-liked__image" src="./img/users/maisa.jpg" alt="Maisa"> -->
+              <span class="stats__friend-liked__friend-name">maisa</span>
+              <span class="stats__friend-liked__addon-text">e outras</span>
+            </div>
+            <span class="body__stats__how-many-quantity">101.523 pessoas</span>
+          </div>
+        </div>
+      </div>
+      <div class="website__posts__post">
+        <div class="posts__post__body">
+          <div class="post__body__header">
+            <div class="body__header__author">
+              <img class="header__author__image" src="./img/users/manual_do_mundo.jpg"
+                alt="Foto de perfil de Manual do Mundo">
+              <span class="header__author__username">manualdomundo</span>
+            </div>
+            <ion-icon class="body__header__options-icon" name="ellipsis-horizontal-outline"></ion-icon>
+          </div>
+          <div class="post__body__main">
+            <img class="body__main__image"
+              src="./img/posts/users/manual_do_mundo/217826839_251408879794945_1685909093297009400_n.jpg" alt="">
+          </div>
+          <div class="post__body__actions">
+            <div class="body__actions__icons-left">
+              <ion-icon tabindex="0" class="actions__icons__icon like" name="heart-outline"></ion-icon>
+              <ion-icon tabindex="0" class="actions__icons__icon like" name="heart"></ion-icon>
+              <ion-icon class="actions__icons__icon" name="chatbubble-outline"></ion-icon>
+              <ion-icon class="actions__icons__icon" name="paper-plane-outline"></ion-icon>
+            </div>
+            <div class="body__actions__icons-right">
+              <ion-icon class="actions__icons__icon" name="bookmark-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="post__body__stats">
+            <img class="stats__friend-liked__image" src="./img/users/maisa.jpg" alt="Maisa">
+            <span class="body__stats__how-many-text">Curtido por</span>
+            <div class="body__stats__friend-liked">
+              <!-- <img class="stats__friend-liked__image" src="./img/users/maisa.jpg" alt="Maisa"> -->
+              <span class="stats__friend-liked__friend-name">maisa</span>
+              <span class="stats__friend-liked__addon-text">e outras</span>
+            </div>
+            <span class="body__stats__how-many-quantity">101.523 pessoas</span>
+          </div>
+        </div>
+      </div>
+      <!-- VIDEO INICIO -->
+      <div class="website__posts__post">
+        <div class="posts__post__body">
+          <div class="post__body__header">
+            <div class="body__header__author">
+              <img class="header__author__image" src="./img/users/manual_do_mundo.jpg"
+                alt="Foto de perfil de Manual do Mundo">
+              <span class="header__author__username">manualdomundo</span>
+            </div>
+            <ion-icon class="body__header__options-icon" name="ellipsis-horizontal-outline"></ion-icon>
+          </div>
+          <div class="post__body__main">
+            <video class="body__main__image" autoplay muted>
+              <source src="./img/posts/users/molusqueti/video.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="post__body__actions">
+            <div class="body__actions__icons-left">
+              <ion-icon tabindex="0" class="actions__icons__icon like" name="heart-outline"></ion-icon>
+              <ion-icon tabindex="0" class="actions__icons__icon like" name="heart"></ion-icon>
+              <ion-icon class="actions__icons__icon" name="chatbubble-outline"></ion-icon>
+              <ion-icon class="actions__icons__icon" name="paper-plane-outline"></ion-icon>
+            </div>
+            <div class="body__actions__icons-right">
+              <ion-icon class="actions__icons__icon" name="bookmark-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="post__body__stats">
+            <img class="stats__friend-liked__image" src="./img/users/maisa.jpg" alt="Maisa">
+            <span class="body__stats__how-many-text">Curtido por</span>
+            <div class="body__stats__friend-liked">
+              <!-- <img class="stats__friend-liked__image" src="./img/users/maisa.jpg" alt="Maisa"> -->
+              <span class="stats__friend-liked__friend-name">maisa</span>
+              <span class="stats__friend-liked__addon-text">e outras</span>
+            </div>
+            <span class="body__stats__how-many-quantity">101.523 pessoas</span>
+          </div>
+        </div>
+      </div>
+      <!-- VIDEO FIM -->
+      <div class="website__posts__post">
+        <div class="posts__post__body">
+          <div class="post__body__header">
+            <div class="body__header__author">
+              <img class="header__author__image" src="./img/users/manual_do_mundo.jpg"
+                alt="Foto de perfil de Manual do Mundo">
+              <span class="header__author__username">manualdomundo</span>
+            </div>
+            <ion-icon class="body__header__options-icon" name="ellipsis-horizontal-outline"></ion-icon>
+          </div>
+          <div class="post__body__main">
+            <img class="body__main__image"
+              src="./img/posts/users/manual_do_mundo/217826839_251408879794945_1685909093297009400_n.jpg" alt="">
+          </div>
+          <div class="post__body__actions">
+            <div class="body__actions__icons-left">
+              <ion-icon tabindex="0" class="actions__icons__icon like" name="heart-outline"></ion-icon>
+              <ion-icon tabindex="0" class="actions__icons__icon like" name="heart"></ion-icon>
+              <ion-icon class="actions__icons__icon" name="chatbubble-outline"></ion-icon>
+              <ion-icon class="actions__icons__icon" name="paper-plane-outline"></ion-icon>
+            </div>
+            <div class="body__actions__icons-right">
+              <ion-icon class="actions__icons__icon" name="bookmark-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="post__body__stats">
+            <img class="stats__friend-liked__image" src="./img/users/maisa.jpg" alt="Maisa">
+            <span class="body__stats__how-many-text">Curtido por</span>
+            <div class="body__stats__friend-liked">
+              <!-- <img class="stats__friend-liked__image" src="./img/users/maisa.jpg" alt="Maisa"> -->
+              <span class="stats__friend-liked__friend-name">maisa</span>
+              <span class="stats__friend-liked__addon-text">e outras</span>
+            </div>
+            <span class="body__stats__how-many-quantity">101.523 pessoas</span>
+          </div>
+        </div>
+      </div>
+      <div class="website__posts__post">
+        <div class="posts__post__body">
+          <div class="post__body__header">
+            <div class="body__header__author">
+              <img class="header__author__image" src="./img/users/manual_do_mundo.jpg"
+                alt="Foto de perfil de Manual do Mundo">
+              <span class="header__author__username">manualdomundo</span>
+            </div>
+            <ion-icon class="body__header__options-icon" name="ellipsis-horizontal-outline"></ion-icon>
+          </div>
+          <div class="post__body__main">
+            <img class="body__main__image"
+              src="./img/posts/users/manual_do_mundo/217826839_251408879794945_1685909093297009400_n.jpg" alt="">
+          </div>
+          <div class="post__body__actions">
+            <div class="body__actions__icons-left">
+              <ion-icon tabindex="0" class="actions__icons__icon like" name="heart-outline"></ion-icon>
+              <ion-icon tabindex="0" class="actions__icons__icon like" name="heart"></ion-icon>
+              <ion-icon class="actions__icons__icon" name="chatbubble-outline"></ion-icon>
+              <ion-icon class="actions__icons__icon" name="paper-plane-outline"></ion-icon>
+            </div>
+            <div class="body__actions__icons-right">
+              <ion-icon class="actions__icons__icon" name="bookmark-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="post__body__stats">
+            <img class="stats__friend-liked__image" src="./img/users/maisa.jpg" alt="Maisa">
+            <span class="body__stats__how-many-text">Curtido por</span>
+            <div class="body__stats__friend-liked">
+              <!-- <img class="stats__friend-liked__image" src="./img/users/maisa.jpg" alt="Maisa"> -->
+              <span class="stats__friend-liked__friend-name">maisa</span>
+              <span class="stats__friend-liked__addon-text">e outras</span>
+            </div>
+            <span class="body__stats__how-many-quantity">101.523 pessoas</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
